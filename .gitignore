@@ -1,0 +1,28 @@
+# ---- Secrets (never commit these) ----
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- Jupyter ----
+*.ipynb_checkpoints
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Data (optional: keep large/raw datasets out of the repo) ----
+# data/
+# *.csv
