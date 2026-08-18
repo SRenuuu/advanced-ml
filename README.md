@@ -31,7 +31,7 @@ advanced-ml/
 
 | Week | Topic | Status |
 |------|-------|--------|
-| 01   | Introduction to ML | ⬜ In progress |
+| 01   | Introduction to ML | ✅ Done |
 |      |       |        |
 
 <!-- Add a row for each week as you go. Use ✅ once merged. -->
