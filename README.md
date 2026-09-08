@@ -31,7 +31,8 @@ advanced-ml/
 
 | Week | Topic | Status |
 |------|-------|--------|
-| 01   | Introduction to ML | ✅ Done |
+| 00   | Introduction to ML | ✅ Done |
+| 01   | Basics of ML, Linear Regression | ✅ Done |
 |      |       |        |
 
 <!-- Add a row for each week as you go. Use ✅ once merged. -->

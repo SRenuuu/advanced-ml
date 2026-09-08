@@ -1,0 +1,20 @@
+[project]
+name = "week-01"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "SRenuuu",email = "sandulrenuja@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "scikit-learn (>=1.9.0,<2.0.0)",
+    "numpy (>=2.5.2,<3.0.0)",
+    "pandas (>=3.0.5,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "ipykernel (>=7.3.0,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="420" height="300" fill="#ffffff" />
+
+  <!-- axes -->
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#888888" stroke-width="1.5" />
+  <line x1="50" y1="260" x2="400" y2="260" stroke="#888888" stroke-width="1.5" />
+  <polygon points="50,15 45,25 55,25" fill="#888888" />
+  <polygon points="405,260 395,255 395,265" fill="#888888" />
+  <text x="30" y="20" font-size="14" fill="#333333">y</text>
+  <text x="400" y="280" font-size="14" fill="#333333">x</text>
+
+  <!-- horizontal reference line from the intercept, to show the slope angle -->
+  <line x1="50" y1="210" x2="170" y2="210" stroke="#999999" stroke-width="1.5" stroke-dasharray="4,4" />
+
+  <!-- regression line: y = b1*x + b0 -->
+  <line x1="50" y1="210" x2="360" y2="60" stroke="#5b7fb5" stroke-width="2.5" />
+
+  <!-- arc marking the angle between the horizontal and the regression line -->
+  <path d="M 100,210 A 50,50 0 0,0 92.6,186.7" fill="none" stroke="#5b7fb5" stroke-width="1.5" />
+  <text x="105" y="200" font-size="13" fill="#5b7fb5">β1 (Slope)</text>
+
+  <!-- intercept point on y-axis -->
+  <circle cx="50" cy="210" r="4" fill="#4f6f44" />
+  <text x="10" y="215" font-size="13" fill="#4f6f44">β0</text>
+  <text x="10" y="230" font-size="12" fill="#4f6f44">(Intercept)</text>
+
+  <!-- data point (x1, y1) -->
+  <circle cx="270" cy="105" r="4" fill="#c45c5c" />
+  <text x="230" y="135" font-size="13" fill="#c45c5c">(x1, y1)</text>
+</svg>
