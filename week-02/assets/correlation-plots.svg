@@ -1,0 +1,50 @@
+<svg viewBox="0 0 610 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="610" height="220" fill="#ffffff" />
+
+  <!-- Panel 1: strong positive correlation -->
+  <g>
+    <line x1="20" y1="20" x2="20" y2="170" stroke="#888888" stroke-width="1.5" />
+    <line x1="20" y1="170" x2="180" y2="170" stroke="#888888" stroke-width="1.5" />
+    <line x1="25" y1="155" x2="175" y2="35" stroke="#5b7fb5" stroke-width="2" stroke-dasharray="5,4" />
+    <circle cx="30" cy="150" r="4" fill="#5b7fb5" />
+    <circle cx="50" cy="130" r="4" fill="#5b7fb5" />
+    <circle cx="70" cy="120" r="4" fill="#5b7fb5" />
+    <circle cx="90" cy="100" r="4" fill="#5b7fb5" />
+    <circle cx="110" cy="90" r="4" fill="#5b7fb5" />
+    <circle cx="130" cy="70" r="4" fill="#5b7fb5" />
+    <circle cx="150" cy="55" r="4" fill="#5b7fb5" />
+    <circle cx="165" cy="40" r="4" fill="#5b7fb5" />
+    <text x="60" y="200" font-size="13" fill="#333333">Positive (r ≈ 1)</text>
+  </g>
+
+  <!-- Panel 2: no correlation -->
+  <g transform="translate(215,0)">
+    <line x1="20" y1="20" x2="20" y2="170" stroke="#888888" stroke-width="1.5" />
+    <line x1="20" y1="170" x2="180" y2="170" stroke="#888888" stroke-width="1.5" />
+    <circle cx="30" cy="90" r="4" fill="#8b6795" />
+    <circle cx="50" cy="140" r="4" fill="#8b6795" />
+    <circle cx="70" cy="60" r="4" fill="#8b6795" />
+    <circle cx="90" cy="115" r="4" fill="#8b6795" />
+    <circle cx="110" cy="45" r="4" fill="#8b6795" />
+    <circle cx="130" cy="150" r="4" fill="#8b6795" />
+    <circle cx="150" cy="80" r="4" fill="#8b6795" />
+    <circle cx="165" cy="120" r="4" fill="#8b6795" />
+    <text x="40" y="200" font-size="13" fill="#333333">No correlation (r ≈ 0)</text>
+  </g>
+
+  <!-- Panel 3: strong negative correlation -->
+  <g transform="translate(430,0)">
+    <line x1="20" y1="20" x2="20" y2="170" stroke="#888888" stroke-width="1.5" />
+    <line x1="20" y1="170" x2="180" y2="170" stroke="#888888" stroke-width="1.5" />
+    <line x1="25" y1="35" x2="175" y2="155" stroke="#c45c5c" stroke-width="2" stroke-dasharray="5,4" />
+    <circle cx="30" cy="40" r="4" fill="#c45c5c" />
+    <circle cx="50" cy="55" r="4" fill="#c45c5c" />
+    <circle cx="70" cy="70" r="4" fill="#c45c5c" />
+    <circle cx="90" cy="90" r="4" fill="#c45c5c" />
+    <circle cx="110" cy="105" r="4" fill="#c45c5c" />
+    <circle cx="130" cy="125" r="4" fill="#c45c5c" />
+    <circle cx="150" cy="140" r="4" fill="#c45c5c" />
+    <circle cx="165" cy="155" r="4" fill="#c45c5c" />
+    <text x="50" y="200" font-size="13" fill="#333333">Negative (r ≈ -1)</text>
+  </g>
+</svg>
