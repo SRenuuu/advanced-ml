@@ -1,0 +1,26 @@
+[project]
+name = "week02-assignment-energy-efficiency"
+version = "0.1.0"
+description = "Week 02 Assignment - Multiple Linear Regression on the UCI Energy Efficiency dataset"
+authors = [
+    {name = "SRenuuu",email = "sandulrenuja@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.5,<4.0.0)",
+    "numpy (>=2.5.3,<3.0.0)",
+    "matplotlib (>=3.11.1,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "scikit-learn (>=1.9.1,<2.0.0)",
+    "ucimlrepo (>=0.0.7,<0.0.8)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=7.3.0,<8.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
